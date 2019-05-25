@@ -1,6 +1,6 @@
 <?php
     /* Author : M.Fadhly Noor Rizqi */
-    
+
     function betweenDays($tanggal_pertama,$tanggal_kedua)
     {
         $waktu_sekarang = strtotime($tanggal_kedua);
@@ -9,7 +9,7 @@
         $diff = $waktu_sekarang - $tanggalpertama;
 
         // Bulatkan diff dengan menggunakan function round
-        $round = round($diff / (60 * 60 * 24));
+        $round = round($diff / 86400);
 
         //lakukan perulangan untuk menyelisih tanggal pertama dan tanggal kedua
         for($i= 1; $i<=$round; $i++)

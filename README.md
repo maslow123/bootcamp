@@ -20,9 +20,13 @@ Software-software yang dibutuhkan untuk menjalankan program :
 Adapun metode HTTP yang secara umum dipakai dalam REST api adalah:
   
   1.GET, biasanya digunakan untuk membaca resource dari  REST server
+
   2.POST, biasanya digunakan untuk membuat resource baru di REST server
+
   3.PUT, biasanya digunakan untuk memperbaharui resource di REST server
+
   4.DELETE, biasanya digunakan untuk menghapus resource dari REST server
+
   5.OPTIONS, digunakan untuk mendapatkan operasi yang disupport pada resource dari REST server
   
   Biasanya aplikasi atau sistem ini menggunakan bahasa pemrogramman yang berbeda sehingga untuk bisa berkomunikasi satu sama lainnya bisa menggunakan web service ini.

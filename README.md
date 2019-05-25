@@ -8,8 +8,8 @@ Software-software yang dibutuhkan untuk menjalankan program :
   2. Jika sudah di download, letakkan file tersebut didalam folder C:\xampp\htdocs\..
   3. Lalu, buka xampp setelah itu nyalakan MySQL serta Apachenya
   4. Setelah itu, buka web browser(Google Chrome/sejenisnya) setelah itu ketikkan alamat url : localhost/{namafile.php}
-  5. Untuk menjalankan program no.6, diharapkan untuk mendownload databasenya terlebih dahulu (saya sudah letakkan filenya dengan nama    
-     bootcamp.php)
+  5. Untuk menjalankan program no.6, diharapkan untuk mendownload databasenya terlebih dahulu (saya sudah letakkan filenya dengan nama   
+     bootcamp.php serta jangan lupa untuk mendownload file config.php)
   6. Jika sudah didownload databasenya, silahkan import databasenya di PHPMYADMIN
   7. Apabila database sudah diimport, silahkan jalankan program no.6.
  SELESAI.

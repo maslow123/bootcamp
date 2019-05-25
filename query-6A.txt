@@ -1,1 +1,1 @@
-SELECT users.*, COUNT(skill.user_id) as row_count FROM users INNER JOIN skills ON skills.id_user = users.id GROUP BY users.id
+SELECT users.*, COUNT(skills.user_id) as row_count FROM users INNER JOIN skills ON skills.user_id = users.id GROUP BY users.id
